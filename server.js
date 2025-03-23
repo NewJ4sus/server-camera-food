@@ -8,7 +8,7 @@ const url_client = 'https://newj4sus.github.io/client-camera-food/';
 
 // Настройки CORS
 const corsOptions = {
-    origin: url_client, // Разрешаем запросы только с этого домена
+    origin: '*', // Разрешаем запросы только с этого домена
     methods: 'GET', // Разрешаем только GET-запросы
     optionsSuccessStatus: 200 // Для старых браузеров
 };
