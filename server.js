@@ -4,7 +4,7 @@ const cors = require('cors');
 const app = express();
 const port = 3456;
 
-const url_client = 'https://newj4sus.github.io/client-camera-food/';
+const url_client = 'https://client-camera-food.vercel.app/';
 
 // Настройки CORS
 const corsOptions = {
