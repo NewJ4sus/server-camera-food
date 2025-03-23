@@ -8,7 +8,7 @@ const url_client = 'https://client-camera-food.vercel.app/';
 
 // Настройки CORS
 const corsOptions = {
-    origin: '*', // Разрешаем запросы только с этого домена
+    origin: url_client, // Разрешаем запросы только с этого домена
     methods: 'GET', // Разрешаем только GET-запросы
     optionsSuccessStatus: 200 // Для старых браузеров
 };
