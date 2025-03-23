@@ -4,7 +4,7 @@ const cors = require('cors');
 const app = express();
 const port = 3456;
 
-const url_client = 'http://192.168.0.14:8000';
+const url_client = 'https://newj4sus.github.io/client-camera-food/';
 
 // Настройки CORS
 const corsOptions = {
@@ -104,6 +104,6 @@ app.get('/product/info', async (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Сервер запущен на http://localhost:${port}`);
+    console.log(`Сервер запущен на https://server-camera-food.onrender.com`);
     console.log(`CORS настроен для домена ${url_client}`);
 }); 
